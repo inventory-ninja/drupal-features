@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * inventory_item_type.features.taxonomy.inc
+ * inventory_item.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function inventory_item_type_taxonomy_default_vocabularies() {
+function inventory_item_taxonomy_default_vocabularies() {
   return array(
     'tags' => array(
       'name' => 'Tags',

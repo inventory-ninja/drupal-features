@@ -9,10 +9,10 @@
  */
 function inventory_item_node_info() {
   $items = array(
-    'item' => array(
-      'name' => t('item'),
+    'inventory_item' => array(
+      'name' => t('Inventory Item'),
       'base' => 'node_content',
-      'description' => t('Inventory Item'),
+      'description' => '',
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
