@@ -1,8 +1,7 @@
 name = Inventory Item
-description = Inventory Content Type and Fields
 core = 7.x
 package = Features
-version = 7.x-1.0-alpha3
+version = 7.x-1.0-alpha4
 dependencies[] = barcode
 dependencies[] = conditional_fields
 dependencies[] = date
