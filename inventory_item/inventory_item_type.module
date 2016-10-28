@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Inventory Item Type feature.
+ */
+
+include_once 'inventory_item_type.features.inc';

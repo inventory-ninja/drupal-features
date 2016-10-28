@@ -1,7 +1,5 @@
 <?php
 /**
  * @file
- * Code for the Inventory Item feature.
+ * Drupal needs this blank file.
  */
-
-include_once 'inventory_item.features.inc';
