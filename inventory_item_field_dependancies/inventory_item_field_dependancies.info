@@ -1,0 +1,9 @@
+name = Inventory Item Field Dependancies
+description = Part Two - Inventory Item Fields, Conditional Field Dependancies
+core = 7.x
+package = Features
+version = 7.x-1.0-alpha1
+features[conditional_fields][] = node:inventory_item
+features[features_api][] = api:2
+features_exclude[dependencies][conditional_fields] = conditional_fields
+no autodetect = 1
