@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * inventory_item.features.inc
+ * inventory_item_fields.features.inc
  */
 
 /**
  * Implements hook_node_info().
  */
-function inventory_item_node_info() {
+function inventory_item_fields_node_info() {
   $items = array(
     'inventory_item' => array(
       'name' => t('Inventory Item'),
