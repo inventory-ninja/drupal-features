@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * inventory_item_field_dependancies.features.conditional_fields.inc
+ * inventory_item_field_dependencies.features.conditional_fields.inc
  */
 
 /**
  * Implements hook_conditional_fields_default_fields().
  */
-function inventory_item_field_dependancies_conditional_fields_default_fields() {
+function inventory_item_field_dependencies_conditional_fields_default_fields() {
   $items = array();
 
   $items["node:inventory_item"] = array(
